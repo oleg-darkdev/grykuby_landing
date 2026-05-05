@@ -1,14 +1,14 @@
 import navigation from './navigation';
 import faq from './faq';
 import social from './social';
-// import navigation from './navigation';
+import tags from './tags';
 // import navigation from './navigation';
 // import navigation from './navigation';
 
 export {
 	navigation,
 	faq,
-	social
+	social,
+	tags
 	// navigation, navigation, navigation	navigation,
-	
 };

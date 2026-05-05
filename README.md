@@ -2,11 +2,11 @@
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-<img align="right" alt="banner" src="promo_imgs_for_repo">
+<img align="right" alt="banner" src="/docs">
 
 # Lorem
 
-![Thumbnail](promo_imgs_for_repo/thumbnail.jpg)
+![Thumbnail](/docs/thumbnail.jpg)
 
 
 
@@ -28,13 +28,13 @@ _Check out the live project [_here_]()._
 
 
 
-| ![Login Page](promo_imgs_for_repo/1.png) | ![Profile Page](promo_imgs_for_repo/2.png) |
+| ![Login Page](/docs/1.png) | ![Profile Page](/docs/2.png) |
 |:--:|:--:|
-| _Login Page_ | _Profile Page_ |
-| ![Dashboard Page](promo_imgs_for_repo/3.png) | ![Disucussion Post & Comments](promo_imgs_for_repo/4.png) |
-| _Dashboard Page_ | _Discussion Post & Comments Page_ |
-| ![Places Page](promo_imgs_for_repo/5.png) | ![Achievements Page](promo_imgs_for_repo/6.png) |
-| _Places Page_ | _Achievements Page_ |
+<!-- | _Login Page_ | _Profile Page_ | -->
+| ![Dashboard Page](/docs/3.png) | ![Disucussion Post & Comments](/docs/4.png) |
+<!-- | _Dashboard Page_ | _Discussion Post & Comments Page_ | -->
+| ![Places Page](/docs/5.png) | ![Achievements Page](/docs/6.png) |
+<!-- | _Places Page_ | _Achievements Page_ | -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

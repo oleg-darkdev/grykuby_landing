@@ -3,7 +3,7 @@
 	// import {  } from '$widgets';
 	// import {  } from '$entitiesLanding'
 
-	import { TagsLine, FaqCard, PromoCard } from '$entitiesLanding';
+	import { TagsLine, FaqCard } from '$entitiesLanding';
 </script>
 
 <section id="faq" class="be-yourself">

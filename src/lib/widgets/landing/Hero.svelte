@@ -29,7 +29,6 @@
 							<div
 								onclick={() => {
 									showNav = false;
-									console.log(link);
 									scrollToAnchor(link);
 								}}
 								class="nav-link"
