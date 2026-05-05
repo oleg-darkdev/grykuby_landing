@@ -2,15 +2,13 @@
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
 
-<img align="right" alt="banner" src="/docs">
+<!-- <img align="right" alt="banner" src="/docs"> -->
 
-# Lorem
+# Landinng page for INFINITE MINESWEEPER application.
 
 ![Thumbnail](/docs/thumbnail.jpg)
 
-
-
-_Check out the live project [_here_]()._
+_Check out the live project [_here_](https://grykuby.vercel.app/)._
 
 ## Table of Contents
 
@@ -22,7 +20,6 @@ _Check out the live project [_here_]()._
   * [Installation](#installation)
   * [Environment Variables Setup](#environment-variables-setup)
   * [Run The App](#run-the-app)
-* [License](#license)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -32,9 +29,9 @@ _Check out the live project [_here_]()._
 |:--:|:--:|
 <!-- | _Login Page_ | _Profile Page_ | -->
 | ![Dashboard Page](/docs/3.png) | ![Disucussion Post & Comments](/docs/4.png) |
-<!-- | _Dashboard Page_ | _Discussion Post & Comments Page_ | -->
+|:--:|:--:|
 | ![Places Page](/docs/5.png) | ![Achievements Page](/docs/6.png) |
-<!-- | _Places Page_ | _Achievements Page_ | -->
+|:--:|:--:|
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -69,21 +66,5 @@ _Check out the live project [_here_]()._
 
 Give a ⭐️ if you like our stuff!
 
-
-## 📝 License
-
-Shield: [![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
-This project is licensed under a
-[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License][cc-by-nc-sa].
-
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
-
-[cc-by-nc-sa]: http://creativecommons.org/licenses/by-nc-sa/4.0/
-[cc-by-nc-sa-image]: https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png
-[cc-by-nc-sa-shield]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg
-
-
-<!-- This project is []() licensed. -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
