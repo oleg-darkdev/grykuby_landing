@@ -15,8 +15,8 @@
 				<div class="copyright">
 					<div>© GryKuby 2023-2026</div>
 				</div>
-				<div class="flex flex-col items-end">
-					<div class="social-icons">
+				<div class="flex flex-col items-end px-10 ">
+					<div class="flex justify-center items-center gap-x-4 gap-y-2  flex-row flex-wrap">
 						{#each social as { icon, title, link }}
 							<a href={link} target="_blank" class="social-link w-inline-block">
 								<img src="{icon}" loading="lazy" alt={title} />
@@ -24,7 +24,7 @@
 						{/each}
 					</div>
 
-					<div class="my-4 flex flex-col gap-4  sm:flex-row lg:items-end  w-full">
+					<div class="my-4  flex flex-col gap-4  sm:flex-row lg:items-end  w-full">
 						<PlayStoreBtn />
 						<AppStoreBtn />
 					</div>

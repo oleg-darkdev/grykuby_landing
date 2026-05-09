@@ -1538,6 +1538,7 @@ p {
 	.copyright {
 		font-size: 14px;
 		line-height: 18px;
+		margin-bottom: 13px;
 	}
 
 	.social-icons {
@@ -1549,7 +1550,7 @@ p {
 	}
 
 	.heading-1 {
-		font-size: 34px;
+		font-size: 30px;
 		line-height: 48px;
 	}
 

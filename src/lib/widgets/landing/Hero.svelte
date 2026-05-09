@@ -54,7 +54,7 @@
 						<div class="mx-4 flex flex-row flex-wrap gap-4 rounded-xl bg-[--blue-violet] px-2 py-4">
 							{#each social as { icon, title, link }}
 								<a href={link} target="_blank" class="social-link w-inline-block">
-									<img src="images/{icon}" loading="lazy" alt={title} />
+									<img src="{icon}" loading="lazy" alt={title} />
 								</a>
 							{/each}
 						</div>

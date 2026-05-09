@@ -6,7 +6,8 @@
 	let { children } = $props();
 </script>
 
-<div class="body">
+<!-- overflow-hidden -->
+<div class="body ">
 	{@render children()	}
 </div>
 

@@ -1,12 +1,10 @@
 <a name="readme-top"></a>
 
-[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa]
-
 <!-- <img align="right" alt="banner" src="/docs"> -->
 
 # Landinng page for INFINITE MINESWEEPER application.
 
-![Thumbnail](/docs/thumbnail.jpg)
+![Thumbnail](/docs/1.png)
 
 _Check out the live project [_here_](https://grykuby.vercel.app/)._
 
@@ -20,6 +18,11 @@ _Check out the live project [_here_](https://grykuby.vercel.app/)._
   * [Installation](#installation)
   * [Environment Variables Setup](#environment-variables-setup)
   * [Run The App](#run-the-app)
+  * [Build](#build)
+  * [Preview](#preview)
+  * [Type Checking](#type-checking)
+  * [Lint & Format](#lint--format)
+  * [Deploy](#deploy)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -45,22 +48,191 @@ _Check out the live project [_here_](https://grykuby.vercel.app/)._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🖌 Creators
 
-<table>
- <tr>
-    <td align="center">
-    <img src="/assets/headshots/mini.png"" width="200px;"/><br />
-    <sub><b>Oleg_darkDev</b></sub><br />Product Web engineer<br />
-    <a href="https://github.com/oleg-darkdev">GitHub</a>
-    <a href="https://www.linkedin.com/in/oleg-darkdev">LinkedIn</a>
-    <a href="https://oleg-darkdev.vercel.app/">Site</a>
-    </td>
-    
- </tr>
-</table>
+## Prerequisites
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<a name="prerequisites"></a>
+
+Before getting started, make sure you have installed:
+
+- Node.js >= 18
+- npm >= 9
+
+Check installed versions:
+
+```bash
+node -v
+npm -v
+```
+
+---
+
+## Installation
+
+<a name="installation"></a>
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+---
+
+## Environment Variables Setup
+
+
+<a name="environment-variables-setup"></a>
+
+Create a `.env` file in the project root:
+
+```env
+PUBLIC_API_URL=http://localhost:3000
+```
+
+Add any additional environment variables if required.
+
+---
+
+## Run The App
+
+
+<a name="run-the-app"></a>
+
+### Development Mode
+
+```bash
+npm run dev
+```
+
+This command runs:
+
+- `typesafe-i18n` generation
+- Vite development server
+
+Simultaneously using `npm-run-all`.
+
+---
+
+### Run Only Vite
+
+```bash
+npm run start
+```
+
+Automatically opens the application in the browser using `--open`.
+
+---
+
+## Build
+
+
+
+<a name="build"></a>
+
+Production build:
+
+```bash
+npm run build
+```
+
+Builds the production-ready version of the application.
+
+---
+
+## Preview
+
+<a name="preview"></a>
+
+Preview the production build locally:
+
+```bash
+npm run preview
+```
+
+Runs a local preview server for the production build.
+
+---
+
+## Internationalization (i18n)
+
+
+Generate typesafe translations:
+
+```bash
+npm run typesafe-i18n
+```
+
+Powered by:
+
+- `typesafe-i18n`
+
+Features:
+
+- fully typed translations
+- autocomplete support
+- protection against invalid translation keys
+
+---
+
+## Type Checking
+
+<a name="type-checking"></a>
+
+### One-time Check
+
+```bash
+npm run check
+```
+
+Runs:
+
+- `svelte-kit sync`
+- `svelte-check`
+
+---
+
+### Watch Mode
+
+```bash
+npm run check:watch
+```
+
+Continuously watches and reports TypeScript/Svelte errors.
+
+---
+
+## Deploy
+
+<a name="deploy"></a>
+
+
+### Initial Server Setup
+
+```bash
+npm run deploy:setup
+```
+
+Uses:
+
+```bash
+pm2 deploy production setup
+```
+
+---
+
+### Deploy Application
+
+```bash
+npm run deploy
+```
+
+Uses the PM2 deployment pipeline:
+
+```bash
+pm2 deploy production
+```
+
 
 ## 💪🏼 Show your support
 
